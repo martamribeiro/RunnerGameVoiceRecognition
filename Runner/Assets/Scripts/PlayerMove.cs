@@ -21,6 +21,8 @@ public class PlayerMove : MonoBehaviour
     private KeywordRecognizer keywordRecognizer;
     private Dictionary<string, Action> actions = new Dictionary<string, Action>();
 
+    public Animator m_Animator;
+
     private void Start()
     {
         player = GetComponent<CharacterController>();
@@ -45,17 +47,11 @@ public class PlayerMove : MonoBehaviour
     private void Left()
     {
         targetZPosition = Mathf.Clamp(targetZPosition - moveDistance, -moveDistance, moveDistance);
-        Vector3 currentPosition = playerTransform.localPosition;
-        Vector3 newPosition = new Vector3(currentPosition.x, currentPosition.y, targetZPosition);
-        playerTransform.localPosition = Vector3.Lerp(currentPosition, newPosition, smoothTime);
     }
 
     private void Right()
     {
         targetZPosition = Mathf.Clamp(targetZPosition + moveDistance, -moveDistance, moveDistance);
-        Vector3 currentPosition = playerTransform.localPosition;
-        Vector3 newPosition = new Vector3(currentPosition.x, currentPosition.y, targetZPosition);
-        playerTransform.localPosition = Vector3.Lerp(currentPosition, newPosition, smoothTime);
     }
 
     private void Jump()
@@ -64,35 +60,17 @@ public class PlayerMove : MonoBehaviour
         {
             isJumping = true;
             verticalSpeed = CalculateJumpSpeed(jumpHeight);
+            m_Animator.SetTrigger("Jump");
         }
     }
 
     void Update()
     {
-        // Smoothly update the targetZPosition based on input
-        /*if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            targetZPosition = Mathf.Clamp(targetZPosition - moveDistance, -moveDistance, moveDistance);
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            targetZPosition = Mathf.Clamp(targetZPosition + moveDistance, -moveDistance, moveDistance);
-        }*/
-
         // Smoothly move player towards the target position
-        /*Vector3 currentPosition = playerTransform.localPosition;
+        Vector3 currentPosition = playerTransform.localPosition;
         Vector3 newPosition = new Vector3(currentPosition.x, currentPosition.y, targetZPosition);
         playerTransform.localPosition = Vector3.Lerp(currentPosition, newPosition, smoothTime);
-        */
-
-        // Jumping
-        /*if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
-        {
-            isJumping = true;
-            verticalSpeed = CalculateJumpSpeed(jumpHeight);
-        }*/
-
-        // Apply gravity and move player vertically
+        
         if (isJumping)
         {
             verticalSpeed += Physics.gravity.y * 0.5f * Time.deltaTime;
@@ -108,6 +86,7 @@ public class PlayerMove : MonoBehaviour
                 Vector3 groundedPosition = playerTransform.localPosition;
                 groundedPosition.y = initialYPosition;
                 playerTransform.localPosition = groundedPosition;
+                m_Animator.ResetTrigger("Jump");
             }
         }
     }

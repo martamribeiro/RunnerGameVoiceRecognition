@@ -875,7 +875,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 993a33ca7ff10564c8b232980add22d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roadSection: {fileID: 3008870775347107543, guid: 971a7ba3899b2c94cae34ad2f10fa5d6, type: 3}
+  roadSections:
+  - {fileID: 3008870775347107543, guid: 971a7ba3899b2c94cae34ad2f10fa5d6, type: 3}
+  - {fileID: 3008870775347107543, guid: 93dee69cc703a0b4b87e9e167b2dfb26, type: 3}
 --- !u!136 &1267288196
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -988,6 +990,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1267288200}
   playerTransform: {fileID: 1267288199}
+  m_Animator: {fileID: 1454726960}
 --- !u!4 &1279051228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107406304231971054, guid: 1fdb83abe97881945a999271a05f4c52, type: 3}
@@ -1049,6 +1052,11 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!95 &1454726960 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7413344840680693326, guid: cc91c8ba8b9a34f4d99e70d721f60b64, type: 3}
+  m_PrefabInstance: {fileID: 211383491}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1489320293 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107406304231971054, guid: 1fdb83abe97881945a999271a05f4c52, type: 3}
