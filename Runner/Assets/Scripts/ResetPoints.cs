@@ -10,7 +10,7 @@ public class ResetPoints : MonoBehaviour
         PlayerPrefs.SetInt("Points", 0);
         PlayerPrefs.Save();
 
-        //PlayerPrefs.SetInt("RecordPoints", 0);
-        //PlayerPrefs.Save();
+        /*PlayerPrefs.SetInt("RecordPoints", 0);
+        PlayerPrefs.Save();*/
     }
 }

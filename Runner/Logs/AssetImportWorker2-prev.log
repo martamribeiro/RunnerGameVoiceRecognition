@@ -15,7 +15,7 @@ C:/Users/marta/Documents/GitHub/RunnerGameVoiceRecognition/Runner
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-63284
+49839
 Successfully changed project path to: C:/Users/marta/Documents/GitHub/RunnerGameVoiceRecognition/Runner
 C:/Users/marta/Documents/GitHub/RunnerGameVoiceRecognition/Runner
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/marta/Documents/GitHub/RunnerGameVoiceRecognition/Runner
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19372] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 333767497 [EditorId] 333767497 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21624] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 3013784666 [EditorId] 3013784666 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19372] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 333767497 [EditorId] 333767497 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21624] Host "[IP] 192.168.1.105 [Port] 0 [Flags] 2 [Guid] 3013784666 [EditorId] 3013784666 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-H5F1OK20) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 239.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 306.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.21f1 (1b156197d683)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -75,48 +75,48 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.026500 seconds.
+Registered in 0.025313 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 597 ms
+Android Extension - Scanning For ADB Devices 510 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 188.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 183.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.979 seconds
+- Completed reload, in  1.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1979ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (1822ms)
+		BeginReloadAssembly (202ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1559ms)
-			LoadAssemblies (223ms)
+		EndReloadAssembly (1396ms)
+			LoadAssemblies (204ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (1176ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (1063ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (739ms)
+				InitializePlatformSupportModulesInManaged (685ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (189ms)
+				RefreshPlugins (183ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015857 seconds.
+Registered in 0.010280 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -125,46 +125,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.746 seconds
+- Completed reload, in  1.940 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1748ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (1942ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (1347ms)
-			LoadAssemblies (153ms)
+		EndReloadAssembly (1533ms)
+			LoadAssemblies (157ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (401ms)
+			SetupTypeCache (572ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (605ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (597ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
+				InitializePlatformSupportModulesInManaged (39ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (158ms)
-				ProcessInitializeOnLoadAttributes (345ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (339ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3250 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (1.3 MB). Loaded Objects now: 3703.
-Memory consumption went from 121.9 MB to 120.6 MB.
-Total: 4.500400 ms (FindLiveObjects: 0.320500 ms CreateObjectMapping: 0.239700 ms MarkObjects: 3.602900 ms  DeleteObjects: 0.335600 ms)
+Unloading 3265 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.3 MB). Loaded Objects now: 3719.
+Memory consumption went from 124.5 MB to 123.1 MB.
+Total: 5.893000 ms (FindLiveObjects: 0.284700 ms CreateObjectMapping: 0.209800 ms MarkObjects: 4.855800 ms  DeleteObjects: 0.541800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,295 +178,245 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29205.156369 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion
-  artifactKey: Guid(bca860da6d60ce74890f9b009bfb3b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/RootMotion using Guid(bca860da6d60ce74890f9b009bfb3b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a768febc5c7ea19e3b9ff440a3c1bb6') in 0.017472 seconds 
+  Time since last request: 2544.078701 seconds.
+  path: Assets/Art/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab
+  artifactKey: Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/RPG Tiny Hero Duo/Prefab/FemaleCharacterPBR.prefab using Guid(cc91c8ba8b9a34f4d99e70d721f60b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d05ba1a0462cbc3b9623d79a9d9a696') in 0.892536 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.959834 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx
-  artifactKey: Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/JumpAir_Double_InPlace_SwordAndShield.fbx using Guid(5a1a6cd3b07227d4291a52440352f908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d9abeb37651b796f2880ed6f7d3612a') in 0.418419 seconds 
+  Time since last request: 12.221962 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models
+  artifactKey: Guid(fac5102d6ee34954fb147ea5cb33d8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models using Guid(fac5102d6ee34954fb147ea5cb33d8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76e6d7820544562fa58f8bd134355128') in 0.002813 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/SprintFWD_Battle_InPlace_SwordAndShield.fbx
-  artifactKey: Guid(5eee3d6dbfbcef04ab20b548575d7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/SprintFWD_Battle_InPlace_SwordAndShield.fbx using Guid(5eee3d6dbfbcef04ab20b548575d7b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3fa2c42007031f74722639a75ccfd0') in 0.117942 seconds 
+  Time since last request: 0.032763 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building Sky_big_color01.fbx
+  artifactKey: Guid(152095147e5492c41a9718b9b09863a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building Sky_big_color01.fbx using Guid(152095147e5492c41a9718b9b09863a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71bd656d909c347d197ed787a56b390') in 0.080560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Big Tree.fbx
+  artifactKey: Guid(b8b93a0c79396d54ea72d1eecb7bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Big Tree.fbx using Guid(b8b93a0c79396d54ea72d1eecb7bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143b38dbe569eb8916c7aeda09260451') in 0.050520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Stadium.fbx
+  artifactKey: Guid(8d799610519b6274c8bb35a7fd95f5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Stadium.fbx using Guid(8d799610519b6274c8bb35a7fd95f5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b5457506c267a87e15b358f92266072') in 0.025549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Rock_Big.fbx
+  artifactKey: Guid(9af6d300c4b48bb4ebe9539c44d73f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Rock_Big.fbx using Guid(9af6d300c4b48bb4ebe9539c44d73f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73abbf9c270280972875f62c682f9ab') in 0.026594 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000051 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx
-  artifactKey: Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animation/SwordAndShield/InPlace/MoveFWD_Normal_InPlace_SwordAndShield.fbx using Guid(0791e523b7f1b2740a3b1cde42b6aeac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326301002fb05f629976a427665eeebc') in 0.094927 seconds 
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Roof Solar Panel.fbx
+  artifactKey: Guid(033999da19ac9074d84c50be8da3917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Roof Solar Panel.fbx using Guid(033999da19ac9074d84c50be8da3917e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171dbc496763f8ef5b249c98bcf6de30') in 0.026881 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 47.625274 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animator/AnimLayer.mask
-  artifactKey: Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animator/AnimLayer.mask using Guid(acaf52b69aaad2042b776ec016c26e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496343ae153c4a698a861be6df25feb1') in 0.014769 seconds 
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Dustbin.fbx
+  artifactKey: Guid(8b615931481e47849972f85e029c22cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Dustbin.fbx using Guid(8b615931481e47849972f85e029c22cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4bc44fb0c017e3e422dd50daa74824') in 0.023309 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.078285 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animator/AnimationLayer.controller
-  artifactKey: Guid(ad202f9dbc4f60c49a5f7d1d0546d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animator/AnimationLayer.controller using Guid(ad202f9dbc4f60c49a5f7d1d0546d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bc7b219d6ea09ed3bab3d546bf1a54') in 0.016761 seconds 
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx
+  artifactKey: Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Restaurant.fbx using Guid(efc62b24c745a1f469c0d1453dfb41e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b749c63de7ce575efb3d5bf19219efc') in 0.026087 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.093500 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animator/RootMotion.controller
-  artifactKey: Guid(230b755b75de01e42872522beacd71ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animator/RootMotion.controller using Guid(230b755b75de01e42872522beacd71ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d13a6be17082090bd4dc3fb2007fbf') in 0.004831 seconds 
+  Time since last request: 0.000026 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Shoes Shop.fbx
+  artifactKey: Guid(27c09c8008c0ada409e024a1dc2186c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Shoes Shop.fbx using Guid(27c09c8008c0ada409e024a1dc2186c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abcc7eda92e38ee16f73f6606537a004') in 0.030310 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.492179 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animator/RunnerGame.controller
-  artifactKey: Guid(635dc3eed810b1e44b4258bd8fbb0b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animator/RunnerGame.controller using Guid(635dc3eed810b1e44b4258bd8fbb0b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2c4d9922ee01773e531c715319177b') in 0.004979 seconds 
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Bench_2.fbx
+  artifactKey: Guid(fb901750ec5d32f46ad8179f6fb99b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Bench_2.fbx using Guid(fb901750ec5d32f46ad8179f6fb99b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6976ede3f0de0d22b4006eb9475230') in 0.034228 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.435048 seconds.
-  path: Assets/Art/RPG Tiny Hero Duo/Animator/SwordAndShieldStance.controller
-  artifactKey: Guid(2be64f57d7d213648aa9b2e5e8e0a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/RPG Tiny Hero Duo/Animator/SwordAndShieldStance.controller using Guid(2be64f57d7d213648aa9b2e5e8e0a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92558b32e68cbc80c6c04245b0f35e66') in 0.038453 seconds 
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Grass Tile.fbx
+  artifactKey: Guid(fbb8756519c039b4f804c77c5e3293f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Grass Tile.fbx using Guid(fbb8756519c039b4f804c77c5e3293f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04b93c384bf909d1b6c45f278d077d3') in 0.028049 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011259 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.573 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2575ms)
-		BeginReloadAssembly (361ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (84ms)
-		EndReloadAssembly (1908ms)
-			LoadAssemblies (257ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (607ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (855ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (91ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (507ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (28ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3719.
-Memory consumption went from 136.0 MB to 134.7 MB.
-Total: 5.250900 ms (FindLiveObjects: 0.366200 ms CreateObjectMapping: 0.229500 ms MarkObjects: 4.139400 ms  DeleteObjects: 0.514000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Bus Stop.fbx
+  artifactKey: Guid(9e6e51a480e2d6f43878a5d789bd8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Bus Stop.fbx using Guid(9e6e51a480e2d6f43878a5d789bd8704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf04fe07117dd4209bfc0bb03da3d2a') in 0.027345 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013600 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.754 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1756ms)
-		BeginReloadAssembly (269ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (1308ms)
-			LoadAssemblies (194ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (449ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (530ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (51ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (288ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3722.
-Memory consumption went from 136.0 MB to 134.7 MB.
-Total: 7.302400 ms (FindLiveObjects: 0.443100 ms CreateObjectMapping: 0.267200 ms MarkObjects: 6.129300 ms  DeleteObjects: 0.460600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Super Market.fbx
+  artifactKey: Guid(fad753de86ef7464790653995e61e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Super Market.fbx using Guid(fad753de86ef7464790653995e61e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1623632b5726a6f8389fee53cbb8c1f1') in 0.028570 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.015400 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.703 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1705ms)
-		BeginReloadAssembly (293ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1249ms)
-			LoadAssemblies (198ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (489ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (53ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3725.
-Memory consumption went from 136.0 MB to 134.7 MB.
-Total: 5.248300 ms (FindLiveObjects: 0.322000 ms CreateObjectMapping: 0.218100 ms MarkObjects: 4.363800 ms  DeleteObjects: 0.343000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Traffic cone.fbx
+  artifactKey: Guid(85d54012e6db84f428646fd470b7a555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Traffic cone.fbx using Guid(85d54012e6db84f428646fd470b7a555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa190b0c3ffa728c76c4dcc191393aee') in 0.023842 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016150 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\marta\Documents\GitHub\RunnerGameVoiceRecognition\Runner\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for UWP target not found
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.003 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2004ms)
-		BeginReloadAssembly (237ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1591ms)
-			LoadAssemblies (174ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (487ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (79ms)
-			SetupLoadedEditorAssemblies (717ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (67ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (217ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (25ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 5.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3214 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 29 unused Assets / (1.3 MB). Loaded Objects now: 3728.
-Memory consumption went from 136.0 MB to 134.7 MB.
-Total: 6.859000 ms (FindLiveObjects: 0.502600 ms CreateObjectMapping: 0.293700 ms MarkObjects: 5.581600 ms  DeleteObjects: 0.479200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Rock_small.fbx
+  artifactKey: Guid(099a2df3d1c472a43907d07813eee880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Rock_small.fbx using Guid(099a2df3d1c472a43907d07813eee880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63c278c5dd76b3b240ab82e224a8c93') in 0.031557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx
+  artifactKey: Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Pizza.fbx using Guid(d015ce89362e9504890f33e36733d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5787d2af9a528431c703e39b4896f43a') in 0.035207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx
+  artifactKey: Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx using Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b30376f20d9e7af45614e34497f1c7') in 0.025074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Street Light.fbx
+  artifactKey: Guid(ab761d05302615348a9aed34ccd58dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Street Light.fbx using Guid(ab761d05302615348a9aed34ccd58dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d57466ea0ce2bc827a8c66c7c1c751') in 0.029767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Pot Bush_big.fbx
+  artifactKey: Guid(47c1421697edd00439084088bf4efb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Pot Bush_big.fbx using Guid(47c1421697edd00439084088bf4efb68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9caac4056d95cd3170bd31ba295a18ab') in 0.027703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_BillBoard_small.fbx
+  artifactKey: Guid(98b9127e094001849abe00d6ae4f1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_BillBoard_small.fbx using Guid(98b9127e094001849abe00d6ae4f1c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e04c1bf39aa6d3349ebeb11b3feabc5') in 0.029213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Grass Bar.fbx
+  artifactKey: Guid(60550932e430af1479cebb05e97130ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Natures_Grass Bar.fbx using Guid(60550932e430af1479cebb05e97130ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f37c64f04b8e6c2aa08ba5af1e4415') in 0.024592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.675205 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Traffic Signal_big.fbx
+  artifactKey: Guid(773c211b627e8c648b96743ec461a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Props_Traffic Signal_big.fbx using Guid(773c211b627e8c648b96743ec461a88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e9cede5bd3a946dd08bed7b66d0a545') in 0.019729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Lane Bus Stop.fbx
+  artifactKey: Guid(b2e48a8553cc56243892a06271dc3c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Lane Bus Stop.fbx using Guid(b2e48a8553cc56243892a06271dc3c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db585486029776303ac748c0f69c772') in 0.029599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Corner_01.fbx
+  artifactKey: Guid(17f3d60dae6c4024d980ef9e7722acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Corner_01.fbx using Guid(17f3d60dae6c4024d980ef9e7722acaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c588513fb9ec2053f0686be8f612ba') in 0.034486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Corner_02.fbx
+  artifactKey: Guid(b38a4b1b87a3b81429916ae40f4a3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Corner_02.fbx using Guid(b38a4b1b87a3b81429916ae40f4a3f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310651c5e38088aee07cd05645094b54') in 0.032020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Lane_01.fbx
+  artifactKey: Guid(e3c71c50de390ec4190b877211ba0717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Lane_01.fbx using Guid(e3c71c50de390ec4190b877211ba0717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93473865b01ab35eb8329513b1977819') in 0.030564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road T_Intersection_02.fbx
+  artifactKey: Guid(a6fe5bcbc6a87fb41af9ba32e09b0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road T_Intersection_02.fbx using Guid(a6fe5bcbc6a87fb41af9ba32e09b0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1dfac10622211fc0dcfd74a5a28bd4d') in 0.025667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance.fbx
+  artifactKey: Guid(ca65f40fba8c4d146800611d34e2e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance.fbx using Guid(ca65f40fba8c4d146800611d34e2e114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b912feda3ba808a61ee3fff84f52ab61') in 0.033264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road T_Intersection_01.fbx
+  artifactKey: Guid(4026b0b37aa0fed4d95ed976da00e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road T_Intersection_01.fbx using Guid(4026b0b37aa0fed4d95ed976da00e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033a3c3f685515bab7e938464033bcc7') in 0.026044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Bus.fbx
+  artifactKey: Guid(0d82ae0493e1c264bad0588fde0a3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Bus.fbx using Guid(0d82ae0493e1c264bad0588fde0a3d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed08a1722719fb0a3d3953c7aac3521f') in 0.028471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Container.fbx
+  artifactKey: Guid(af2166692e99625489131a7bf2114bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Container.fbx using Guid(af2166692e99625489131a7bf2114bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd528ae909469b7cb640466853bb5602') in 0.033528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Tile.fbx
+  artifactKey: Guid(7b654bd76adcefd44b4799d4290822fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Tile.fbx using Guid(7b654bd76adcefd44b4799d4290822fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847e2ede6b943e766771e4f4e62e4e65') in 0.028483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Sidewalk.fbx
+  artifactKey: Guid(be6b47deae1839141b5dea85228cfa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Road Sidewalk.fbx using Guid(be6b47deae1839141b5dea85228cfa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18bd2b360e3822fc6669730de6fe131f') in 0.026658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.178582 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Pick up Truck_separate.fbx
+  artifactKey: Guid(c99e98d2e12a88c42912742cf2de3eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Pick up Truck_separate.fbx using Guid(c99e98d2e12a88c42912742cf2de3eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82db370f1a0fa71ff006a03746fd0b08') in 0.102268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_SUV.fbx
+  artifactKey: Guid(c887da5f6e3230f4aa38afe5e8e30387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_SUV.fbx using Guid(c887da5f6e3230f4aa38afe5e8e30387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12e912c48df30e916f2f0e46cce7592') in 0.033661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Truck_separate.fbx
+  artifactKey: Guid(4d73dd8cdf5db944da1cd14e579cee1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SimplePoly City - Low Poly Assets/Models/Vehicle_Truck_separate.fbx using Guid(4d73dd8cdf5db944da1cd14e579cee1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db6469ba1457ac1649a5062f4653fd') in 0.124931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.811470 seconds.
+  path: Assets/Art/CartoonLowPolyCityLite/Models/BG.fbx
+  artifactKey: Guid(42c88fdbf5da8284b9f807363e99224c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/CartoonLowPolyCityLite/Models/BG.fbx using Guid(42c88fdbf5da8284b9f807363e99224c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b04685dc16e63d27b8bed9cc2e6651c') in 0.018777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/CartoonLowPolyCityLite/Models/Light_01.fbx
+  artifactKey: Guid(14fbcf0bb3a46ed49a445dded631ba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/CartoonLowPolyCityLite/Models/Light_01.fbx using Guid(14fbcf0bb3a46ed49a445dded631ba60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e143ddb0991c146360af4ff4e0da4c98') in 0.029498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/CartoonLowPolyCityLite/Models/House_16.fbx
+  artifactKey: Guid(68f231344d354a34b9e3b1548957becf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/CartoonLowPolyCityLite/Models/House_16.fbx using Guid(68f231344d354a34b9e3b1548957becf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25446d343557c73d4afb2fe90b6ee098') in 0.045507 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

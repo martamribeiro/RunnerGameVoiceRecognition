@@ -771,8 +771,8 @@ MonoBehaviour:
       colorBlindnessType: 0
       colorBlindnessStrength: 1
   m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
+  m_ShowToolkit: 1
+  m_ShowCustomSorter: 1
   breakBeforeColorGrading: 0
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
@@ -787,9 +787,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 845f28f9ae11b4b4181d3f627c5c4a1f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bea93a38b71b64b598109b3a3b1a0048, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.01
+  m_Volume: 1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pointsManager: {fileID: 7669836}
-  coinCollectSound: {fileID: 1706151194}
+  coinCollectSound: {fileID: 1706151196}
 --- !u!4 &1279051228 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107406304231971054, guid: 1fdb83abe97881945a999271a05f4c52, type: 3}
@@ -1349,8 +1349,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f62b3bb88a55a0489458b4810ca5e86, type: 2}
+  m_sharedMaterial: {fileID: 6835643653363315679, guid: 8f62b3bb88a55a0489458b4810ca5e86, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1488,7 +1488,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1706151195}
-  - component: {fileID: 1706151194}
+  - component: {fileID: 1706151196}
   m_Layer: 0
   m_Name: CoinSound
   m_TagString: Untagged
@@ -1496,7 +1496,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!82 &1706151194
+--- !u!4 &1706151195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706151193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.008622885, y: -0.060597718, z: 0.11199823}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1706151196
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1506,10 +1521,10 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 893913d628609674eba68519b674aa9f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e7568eff32398064289c005c8b2794cd, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
-  m_Pitch: 0
+  m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -1592,21 +1607,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!4 &1706151195
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706151193}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.008622885, y: -0.060597718, z: 0.11199823}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1729866686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1107406304231971054, guid: 1fdb83abe97881945a999271a05f4c52, type: 3}
@@ -1958,8 +1958,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f62b3bb88a55a0489458b4810ca5e86, type: 2}
+  m_sharedMaterial: {fileID: 6835643653363315679, guid: 8f62b3bb88a55a0489458b4810ca5e86, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
