@@ -5,12 +5,14 @@ using UnityEngine;
 public class PointsTrigger : MonoBehaviour
 {
     public PointsManager pointsManager;
+    public AudioSource coinCollectSound;
     private bool canAddPoints = true;  // Flag to prevent multiple triggers
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Coin") && canAddPoints)
         {
+            coinCollectSound.Play();   // Play the coin collection sound
             pointsManager.AddPoints();
             Destroy(other.gameObject);
             StartCoroutine(ResetCanAddPoints());
