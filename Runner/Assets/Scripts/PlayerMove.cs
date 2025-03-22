@@ -3,10 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+
+#if UNITY_STANDALONE_WIN || UNITY_EDITOR
 using UnityEngine.Windows.Speech;
+#endif
+
 
 public class PlayerMove : MonoBehaviour
 {
+    #if UNITY_STANDALONE_WIN || UNITY_EDITOR
     public CharacterController player;
     public Transform playerTransform;
     private float moveDistance = 0.23f; // Fixed distance to move left or right
@@ -96,4 +101,5 @@ public class PlayerMove : MonoBehaviour
         // Calculate the initial upward speed required to achieve the desired jump height
         return Mathf.Sqrt(2 * Mathf.Abs(Physics.gravity.y) * jumpHeight);
     }
+    #endif
 }
