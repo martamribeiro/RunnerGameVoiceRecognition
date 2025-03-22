@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameOverTrigger : MonoBehaviour
 {
+
+    public string gameOverScene;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Obstacle"))
         {
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene(gameOverScene);
         }
     }
 }

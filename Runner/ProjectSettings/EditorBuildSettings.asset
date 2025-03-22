@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Start.unity
-    guid: 917564a60a10760429ab0743fecc232a
+    path: Assets/Scenes/Start_Normal.unity
+    guid: e94655b13eb9b1749bb1f3d9dfee2e68
   - enabled: 1
-    path: Assets/Scenes/HowTo.unity
-    guid: d7a887d659080b7439259bcdaeca8c86
+    path: Assets/Scenes/RunnerGame_Normal.unity
+    guid: 8fdddcec7d7720b448f29168b8217ee4
   - enabled: 1
-    path: Assets/Scenes/RunnerGame.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/HowTo_Normal.unity
+    guid: 24255ef87059886499d386dd10916a30
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: c6e36e7ae12d93d4396f39edff7e45b8
+    path: Assets/Scenes/GameOver_Normal.unity
+    guid: 8d8a2d54108bd104da97d0a0f6e0bc59
   m_configObjects: {}

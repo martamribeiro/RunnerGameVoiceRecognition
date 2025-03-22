@@ -10,6 +10,12 @@ public class SectionTrigger : MonoBehaviour
 
     private int currentIndex = 0;
 
+    private void Start()
+    {
+        // Spawn the first road section randomly
+        int firstIndex = Random.Range(0, roadSections.Length);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Trigger") && !hasTriggered)
@@ -18,7 +24,8 @@ public class SectionTrigger : MonoBehaviour
             Instantiate(roadSections[currentIndex], new Vector3(-3.459214f-0.249607f-0.036538815f-2, 0,0), Quaternion.identity);
 
             // Update the index to alternate between sections
-            currentIndex = (currentIndex + 1) % roadSections.Length;
+            //currentIndex = (currentIndex + 1) % roadSections.Length;
+            currentIndex = Random.Range(0, roadSections.Length);
 
             hasTriggered = true;
 
